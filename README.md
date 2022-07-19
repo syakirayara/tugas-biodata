@@ -24,5 +24,15 @@ sertificate manager
 -masukan domain
 -gunakan DNS validasi
 
+#modul 1
+
+-s3
+-route 53
+-lambda
+-dynamodb
+-lamba + dynamodb
+-api gateway
+-akses api dari luar
+-hubungkan api dari luar
 
 
