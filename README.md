@@ -46,5 +46,14 @@ MODUL 3
 6. ealastichace
 7. route 53
 
+PORT yang di butuhkan 
+ 
+ 1.SSH(buat di terminal)
+ 2.https
+ 3.http
+ 4.port 8080 (buat node.js)
+ 5.MYSQL 
+ 6.6379 (buat elastichace)
+
 
 
