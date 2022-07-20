@@ -33,16 +33,18 @@ sertificate manager
 -lamba + dynamodb
 -api gateway
 -akses api dari luar
+-hubungkan api dari luar
+
 
 MODUL 3
 
+1. buat rds
 1. buat ec2 dan install node js
 2. buat AMI 
 3. load balancing 
 4. auto scaling
-5. rds
 6. ealastichace
 7. route 53
--hubungkan api dari luar
+
 
 
