@@ -1,3 +1,31 @@
+membuat node.js
+sudo git clone https://github.com/sam-meech-ward-bcit/lotr
+masukin ke etc/systemd/system/lotr.service
+
+[Unit]
+Description=My Node Server
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/node /home/ec2-user/lotr/server.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-node-server
+User=ec2-user
+EnvironmentFile=/home/ec2-user/lotr/app.env
+
+[Install]
+WantedBy=multi-user.target
+
+-sudo system start lotr.service
+-sudo system status lotr.service 
+- suo cat var/log/syslog
+
+
+
+
 s3
 - jika ingin menghapus file pada s3 dan masih ingin meninggalkan jejak, pertama hapus tampa mengaktifkan version dan ke dua hapus dengan mengaktifkan version.
 * fungsi dari versioning adalah untuk roal back (kembali ke versi ke sebelumnya)
